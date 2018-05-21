@@ -1,8 +1,4 @@
 import org.mybatis.generator.api.CommentGenerator;
-
-import static org.mybatis.generator.internal.util.StringUtility.isTrue;
-
-import org.mybatis.generator.api.CommentGenerator;
 import org.mybatis.generator.api.IntrospectedColumn;
 import org.mybatis.generator.api.IntrospectedTable;
 import org.mybatis.generator.api.dom.java.*;
@@ -14,9 +10,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
-/**
- * Created by zhuzhixian on 17-5-9.
- */
+import static org.mybatis.generator.internal.util.StringUtility.isTrue;
+
 public class MyCommentGenerator implements CommentGenerator{
 
     private Properties properties;
